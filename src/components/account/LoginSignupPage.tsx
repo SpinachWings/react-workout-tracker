@@ -1,8 +1,12 @@
+import {useNavigate} from "react-router-dom";
+
 function LoginSignupPage() {
 
     const baseUrl = import.meta.env.VITE_BASE_URL;
     const email = import.meta.env.VITE_USER_EMAIL; // will be dynamic eventually
     const password = import.meta.env.VITE_USER_PASSWORD; // will be dynamic eventually
+
+    const navigate = useNavigate();
 
     const login = async () => {
         let responseJson;
@@ -21,6 +25,7 @@ function LoginSignupPage() {
             });
             responseJson = await response.json();
             console.log(responseJson.message);
+            navigate("/");
         } catch(err) {
             console.log('bad request');
         }

@@ -1,0 +1,23 @@
+#template-partition {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.template-partitioned-panel {
+    width: 50%;
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.expand-collapse-toggle {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+}
+
+.expand-collapse-toggle-child {
+    padding: 4px;
+}

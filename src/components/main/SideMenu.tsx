@@ -1,6 +1,8 @@
+import '../../styles/side-menu.css'
+
 function SideMenu() {
     return (
-        <div>
+        <div id={"side-menu"}>
             side
         </div>
     );

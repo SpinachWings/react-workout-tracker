@@ -1,8 +1,8 @@
 import {Routes, Route, useNavigate} from "react-router-dom";
-import MainPage from "./components/MainPage.tsx"
-import LoginSignupPage from "./components/account/LoginSignupPage.tsx";
-import DeleteAccountPage from "./components/account/DeleteAccountPage.tsx";
-import PasswordResetPage from "./components/account/PasswordResetPage.tsx";
+import MainPage from "./MainPage.tsx"
+import LoginSignupPage from "../account/LoginSignupPage.tsx";
+import DeleteAccountPage from "../account/DeleteAccountPage.tsx";
+import PasswordResetPage from "../account/PasswordResetPage.tsx";
 import {useEffect} from "react";
 
 function App() {
@@ -42,4 +42,4 @@ function App() {
     );
 }
 
-export default App
+export default App;
