@@ -4,7 +4,7 @@ import { faAngleDoubleDown, faAngleDoubleUp } from '@fortawesome/free-solid-svg-
 function ExpandCollapseToggle(props: any) {
 
     const toggleIcon = props.open ? faAngleDoubleUp : faAngleDoubleDown;
-    const toggleStyle = props.open ? "expand-collapse-toggle blue-bg-4 blue-bg-5-on-hover" : "expand-collapse-toggle blue-bg-5-on-hover";
+    const toggleStyle = props.open ? "expand-collapse-toggle blue-bg-4 blue-bg-3-on-hover" : "expand-collapse-toggle blue-bg-3-on-hover";
 
     return (
         <div onClick={() => props.toggle()} className={toggleStyle}>

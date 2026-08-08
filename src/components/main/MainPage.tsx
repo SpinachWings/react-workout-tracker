@@ -90,7 +90,7 @@ function MainPage() {
                     <div id={"main-page-header"}>
 
                         <ul className={"main-page-mini-header-menu left"}>
-                            <li className={"small-button-1 blue-bg-4 blue-bg-5-on-hover light-text"}>H</li>
+                            <li className={"small-button-1 blue-bg-4 blue-bg-3-on-hover light-text"}>H</li>
                         </ul>
 
                         <ul id={"calendar-templates-charts-selector"}>
@@ -100,8 +100,8 @@ function MainPage() {
                         </ul>
 
                         <ul className={"main-page-mini-header-menu right"}>
-                            <li className={"small-button-1 blue-bg-4 blue-bg-5-on-hover light-text"}>S</li>
-                            <li className={"small-button-1 blue-bg-4 blue-bg-5-on-hover light-text"}>M</li>
+                            <li className={"small-button-1 blue-bg-4 blue-bg-3-on-hover light-text"}>S</li>
+                            <li className={"small-button-1 blue-bg-4 blue-bg-3-on-hover light-text"}>M</li>
                         </ul>
 
                     </div>

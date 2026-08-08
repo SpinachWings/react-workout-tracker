@@ -12,6 +12,18 @@ export type TemplateWorkout = {
 
 type TemplateWorkouts = TemplateWorkout[];
 
+export function templateWorkoutWithNameExists(name: string, allTemplateWorkouts: TemplateWorkouts): boolean {
+    return !!allTemplateWorkouts ? allTemplateWorkouts.filter(workout => workout.description === name).length > 0 : false;
+}
+
+export function createNewTemplateWorkoutWithName(name: string): TemplateWorkout {
+    return {
+        description: name,
+        id: 0,
+        exercises: [],
+    }
+}
+
 export const TemplateWorkoutContext = createContext<TemplateWorkouts | undefined>(undefined);
 export const PreSaveTemplateWorkoutContext = createContext<TemplateWorkouts | undefined>(undefined);
 

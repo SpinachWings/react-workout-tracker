@@ -21,3 +21,12 @@
 .expand-collapse-toggle-child {
     padding: 4px;
 }
+
+.add-new {
+    cursor: pointer;
+}
+
+.add-icon {
+    margin-left: 8px;
+    margin-right: 8px;
+}
